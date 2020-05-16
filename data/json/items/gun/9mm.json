@@ -762,5 +762,41 @@
     "dispersion": 480,
     "durability": 8,
     "magazines": [ [ "9mm", [ "ccpmag" ] ] ]
+  },
+  {
+    "id": "pp19_vityaz",
+    "copy-from": "smg_base",
+    "looks_like": "aks74u",
+    "type": "GUN",
+    "name": { "str": "PP-19-01 Vityaz" },
+    "//": "A small 9mm SMG based of the aks-74u design",
+    "description": "A 9mm Russian Federation submachine gun based of the AKS-74U design. Mainly used by the Russian law enforcement",
+    "weight": "2880 g",
+    "volume": "1 L",
+    "price": 170000,
+    "price_postapoc": 3000,
+    "to_hit": -2,
+    "bashing": 8,
+    "material": [ "plastic", "steel" ],
+    "color": "dark_gray",
+    "ammo": [ "9mm" ],
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 6 ] ],
+    "dispersion": 250,
+    "durability": 8,
+    "skill": "smg",
+    "built_in_mods": [ "folding_stock" ],
+    "valid_mod_locations": [
+      [ "accessories", 3 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "brass catcher", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "rail mount", 1 ],
+      [ "sights mount", 1 ],
+      [ "sling", 1 ],
+      [ "stock", 1 ]
+    ],
+    "magazines": [ [ "9mm", [ "izh_saiga9mag", "vityazmag" ] ] ]
   }
 ]

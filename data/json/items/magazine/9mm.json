@@ -613,5 +613,43 @@
     "reliability": 8,
     "flags": [ "MAG_COMPACT" ],
     "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "9mm": 8 } } ]
+  },
+  {
+    "id": "izh_saiga9mag",
+    "looks_like": "mp5mag",
+    "type": "MAGAZINE",
+    "name": { "str": "Izh Saiga-9 magazine" },
+    "description": "A compact 10 round stick magazine for the Saiga-9 and other 9mm proprietary submachine guns",
+    "weight": "170 g",
+    "volume": "500 ml",
+    "price": 2200,
+    "price_postapoc": 120,
+    "material": "steel",
+    "symbol": "#",
+    "color": "light_gray",
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "9mm": 10 } } ],
+    "ammo_type": [ "9mm" ],
+    "capacity": 10,
+    "reliability": 9,
+    "flags": [ "MAG_COMPACT" ]
+  },
+  {
+    "id": "vityazmag",
+    "looks_like": "mp5mag",
+    "type": "MAGAZINE",
+    "name": { "str": "PP-19-01 Vityaz magazine" },
+    "description": "A standard 30 round stick magazine for the PP-19-01 Vityaz",
+    "weight": "170 g",
+    "volume": "500 ml",
+    "price": 3500,
+    "price_postapoc": 200,
+    "material": "steel",
+    "symbol": "#",
+    "color": "light_gray",
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "9mm": 30 } } ],
+    "ammo_type": [ "9mm" ],
+    "capacity": 30,
+    "reliability": 9,
+    "flags": [ "MAG_COMPACT" ]
   }
 ]

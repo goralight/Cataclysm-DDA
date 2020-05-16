@@ -17,5 +17,23 @@
     "capacity": 5,
     "flags": [ "SPEEDLOADER" ],
     "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "762R": 5 } } ]
+  },
+  {
+    "id": "762R_bigclip",
+    "looks_like": "stanag30",
+    "type": "MAGAZINE",
+    "name": { "str": "7.62x54mmR 10 round clip" },
+    "description": "A tiny piece of grooved metal designed to allow a shooter to quickly load a bolt-action rifle.",
+    "weight": "80 g",
+    "volume": "100ml",
+    "price": 1250,
+    "price_postapoc": 75,
+    "material": "steel",
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [ "762R" ],
+    "capacity": 10,
+    "flags": [ "SPEEDLOADER" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "762R": 10 } } ]
   }
 ]
